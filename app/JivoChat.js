@@ -20,7 +20,7 @@ const JivoChat = () => {
             soundEnabled: true
           });
         }
-      };
+      }
 
       return () => {
         document.body.removeChild(script);
