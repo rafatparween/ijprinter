@@ -1,0 +1,93 @@
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .navbar {
+      height: 60px;
+    }
+    .navbar img {
+      width: 80px; /* Adjust logo size for smaller screens */
+    }
+    .text-left {
+      width: 100%;
+      text-align: center;
+    }
+    .text-left h1 {
+      font-size: 24px;
+      width: 100%;
+    }
+    .text-left p {
+      font-size: 16px;
+      width: 100%;
+    }
+    .search-button {
+      width: 100px;
+      margin-left: 10px;
+    }
+    .image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  }
+  
+  /* Medium devices (tablets, 601px to 768px) */
+  @media (min-width: 601px) and (max-width: 768px) {
+    .navbar {
+      height: 70px;
+    }
+    .navbar img {
+      width: 100px; /* Adjust logo size for medium screens */
+    }
+    .text-left {
+      width: 90%;
+      text-align: center;
+    }
+    .text-left h1 {
+      font-size: 28px;
+      width: 90%;
+    }
+    .text-left p {
+      font-size: 18px;
+      width: 90%;
+    }
+    .search-button {
+      width: 120px;
+      margin-left: 15px;
+    }
+    .image {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  }
+  
+  /* Large devices (desktops, 769px and up) */
+  @media (min-width: 769px) {
+    .navbar {
+      height: 70px;
+    }
+    .navbar img {
+      width: 120px; /* Adjust logo size for larger screens */
+    }
+    .text-left {
+      width: 80%;
+    }
+    .text-left h1 {
+      font-size: 32px;
+      width: 80%;
+    }
+    .text-left p {
+      font-size: 20px;
+      width: 80%;
+    }
+    .search-button {
+      width: 130px;
+      margin-left: 20px;
+    }
+    .image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+  }
+  
+  

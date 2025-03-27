@@ -1,0 +1,35 @@
+.support {
+    text-align: center; /* Center heading and options horizontally */
+    padding: 20px; /* Add padding around the section */
+  }
+  
+  .support h2 {
+    margin-bottom: 40px; /* Space between heading and options */
+    font-size: 2.5rem; /* Larger font size for heading */
+    color: rgba(28, 141, 206, 0.93);
+  }
+  
+  .support-options {
+    display: flex;
+    justify-content: center; /* Center options horizontally */
+    gap: 200px; /* More space between the icons */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .support-option {
+    display: flex;
+    flex-direction: column; /* Stack icons and text vertically */
+    align-items: center; /* Center icons and text */
+  }
+  
+  .support-option span {
+    font-size: 6rem; /* Larger icons */
+    margin-bottom: 20px; /* Increased space between icon and text */
+    color: rgba(28, 141, 206, 0.93); /* Icon color */
+  }
+  
+  .support-option p {
+    font-size: 2rem; /* Larger font size for the text */
+    margin: 0; /* Remove margin from the text */
+    color: rgba(28, 141, 206, 0.93);
+  }

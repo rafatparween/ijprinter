@@ -1,0 +1,93 @@
+.header {
+    background-color: #fff;
+    padding: 0px 15px;
+    text-align: right;
+    height: 71px;
+    margin: 0px 347.5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.chat-now {
+    font-size: 30px;
+    color: #1c85c1;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.chat-now i {
+    margin-right: 8px;
+}
+
+.chat-now::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background-color: #1c85c1;
+    transition: width 0.3s ease;
+}
+
+.chat-now:hover::after {
+    width: 700%;
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        padding: 0 10px;
+        height: auto;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .chat-now {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        
+    }
+
+    .chat-now i {
+        margin-right: 5px;
+        font-size: 20px;
+        /* Reduce the icon size */
+    }
+
+    .chat-now::after {
+        width: 100%;
+        bottom: -2px;
+       
+    }
+
+    .chat-now:hover::after {
+        width: 200%;
+       
+    }
+}
+
+/* Small tablets (up to 768px) */
+@media only screen and (max-width: 768px) {
+    .header {
+        margin: 0 20px;
+        /* Adjust margin for small tablets */
+        padding: 0 15px;
+        /* Maintain padding consistency */
+        text-align: center;
+        /* Center align content */
+    }
+
+    .chat-now {
+        font-size: 25px;
+        /* Adjust font size for small tablets */
+    }
+
+    .chat-now i {
+        font-size: 25px;
+        /* Adjust icon size */
+    }
+}
