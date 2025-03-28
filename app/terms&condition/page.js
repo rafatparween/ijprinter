@@ -37,7 +37,7 @@ const Home = () => {
 
                         You agree to use this Site in a responsible manner that is in full compliance with these Terms and with your local laws and regulations, including export and import regulations.
 
-                        You agree that you will not use the Site to produce Products that are offensive, unlawful, harassing, libelous, threatening, harmful, obscene, malicious, or otherwise objectionable. 123techprint reserves the right, in its sole discretion and without prior notice, to refuse to accept any content provided by you to 123techprint or to  any order at any time and without assigning any reason. 123techprint also may terminate its service to and/or the accounts of customers found to be using 123techprint to engage in undesirable activities or otherwise violating these Terms.
+                        You agree that you will not use the Site to produce Products that are offensive, unlawful, harassing, libelous, threatening, harmful, obscene, malicious, or otherwise objectionable. 123techprint reserves the right, in its sole discretion and without prior notice, to refuse to accept any content provided by you to 123techprint or to process any order at any time and without assigning any reason. 123techprint also may terminate its service to and/or the accounts of customers found to be using 123techprint to engage in undesirable activities or otherwise violating these Terms.
 
                         You are solely responsible for your use of Content in combination with any other images, graphics, text, or other materials you incorporate into your Products.
 

@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container mx-auto px-20 lg:px-20 py-20 flex flex-col gap-10 md:flex-row justify-between border-t border-slate-800">
                 <div className="flex">
                     <div className="font-bold text-center">
-                        <h1 className="text-[32px] mt-[89px]">Ez Tech Print</h1>
+                        <h1 className="text-[32px] mt-[89px]"> At Ez tech Printer Solutions</h1>
                     </div>
                 </div>
 

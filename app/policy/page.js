@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Footer from "../Components/Footer";
 
 const PrivacyPolicy = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy | EzTech-Print</title>
-        <meta name="description" content="Privacy policy page for EzTech-Print " />
+        <title>Privacy Policy | At Ez tech Printer Solutions</title>
+        <meta name="description" content="Privacy policy page for At Ez tech Printer Solutions" />
       </Head>
 
       <div className="bg-gradient-to-r from-blue-500 via-teal-600 to-indigo-700 min-h-screen py-12 px-6 md:px-12 pt-16">
@@ -16,7 +15,7 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="space-y-8 text-gray-700">
             <p>
-              At EzTech-Print, your privacy is a top priority for us. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website and use our services. By accessing or using our website, you agree to the terms outlined in this policy.
+              At  At Ez tech Printer Solutions, your privacy is a top priority for us. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website and use our services. By accessing or using our website, you agree to the terms outlined in this policy.
             </p>
 
             <h2 className="text-2xl font-semibold text-gray-800 mt-8">
@@ -113,7 +112,6 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </>
   );
 };
