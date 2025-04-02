@@ -14,13 +14,12 @@ const Chatlink = () => {
     >
       <div className="relative flex items-center">
   {/* Call Icon Image */}
-  {/* <img src="/bluecall.png" alt="Call Icon" className="w-6 h-6 sm:w-8 sm:h-8 mr-2" /> */}
+  <img src="/call.png" alt="Call Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
 
   {/* Text */}
-  {/* <span className="text-[20px] sm:text-[24px] text-[#1c85c1]">
-    Call us for printer support
-  </span> */}
-
+  <span className="text-[20px] sm:text-[24px] text-[#1c85c1]">
+            Chat us for Printer Support
+          </span>
   {/* Animated Bottom Line */}
   <div
     className={`absolute bottom-[-5px] right-0 h-[4px] bg-[#1c85c1] transition-all duration-300 ease-in-out ${hover ? 'w-full' : 'w-0'}`}
@@ -38,23 +37,23 @@ const NextNavbar = () => {
       <div className="max-w-[90%] xl:max-w-6xl mx-auto flex items-center justify-between py-4">
 
         {/* Logo on the left */}
-        {/* <Link href="/" passHref legacyBehavior>
+        <Link href="/" passHref legacyBehavior>
           <a className="flex items-center">
             <Image
               src="/hplogo.png"
               alt="HP Logo"
-              width={53}
-              height={53}
-              className="w-auto h-auto"
+              width={43}
+              height={43}
+              className="w-[43px] h-[43px]"
             />
           </a>
-        </Link> */}
-        <div className="flex items-center space-x-2">
+        </Link>
+        {/* <div className="flex items-center space-x-2">
           <img src="/call.png" alt="Call Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
           <span className="text-[20px] sm:text-[24px] text-[#1c85c1]">
             Chat us for Printer Support
           </span>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Button */}
         <button
