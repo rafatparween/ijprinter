@@ -302,18 +302,7 @@ function Home() {
     'HP ENVY 120 e-All-in-One Printer series',
     'HP ENVY 4500 e-All-in-One Printer series',
     'HP ENVY 4510 All-in-One Printer series',
-    // 'HP ENVY 4520 e-All-in-One Printer series',
-    // 'HP ENVY 5000 All-in-One Printer series',
-    // 'HP ENVY 5500 All-in-One Printer series',
-    // 'HP ENVY 5540 All-in-One Printer series',
-    // 'HP ENVY 5600 e-All-in-One Printer series',
-    // 'HP ENVY 7600 e-All-in-One Printer series',
-    // 'HP ENVY Photo 6200 All-in-One Printer series',
-    // 'HP Deskjet D1360 Printer series',
-    // 'HP Deskjet Ink Advantage Ultra 4800 series',
-    // 'HP DeskJet Ink Advantage 2800 All-in-One Printer series',
-    // 'HP DeskJet Ink Advantage 5200 All-in-One Printer series',
-    // 'HP Deskjet D1330 Printer series',
+    
   ];
 
   const handleSearchChange = (event) => {
@@ -350,7 +339,7 @@ function Home() {
       
         <div className="h-[530px]  ">
         <section
-    className="relative flex flex-col justify-center items-center text-center py-12 h-[530px] bg-cover bg-center"
+    className="relative flex flex-col justify-center items-center text-center py-12 h-[362px] bg-cover bg-center"
     style={{
       backgroundImage: "url('/topback.png')"
     }}
@@ -364,7 +353,7 @@ function Home() {
     </div>
 
             <div className=" inset-0 opacity-80"></div>
-            <div className="relative z-10 text-white 2xl:mt-[117px] xl:mt-[165px] 2xl:ml-[-825px] xl:ml-[-366px]  ">
+            <div className="relative z-10 text-white 2xl:mt-[117px] xl:mt-[283px] 2xl:ml-[-825px] xl:ml-[-366px]  ">
               <h1 className="text-4xl font-hp-simplified text-[44px] 2xl:ml-[-79px] xl:ml-[-134px]">Get started with your Printer</h1>
               <p className="mt-[35px] text-[24px] xl:ml-[94px] 2xl:ml-[138px]">Enter your Printer name and model number for Printer Setup Installation</p>
 
@@ -417,12 +406,12 @@ function Home() {
                 alt="Printer setup devices"
                 width={350}
                 height={196}
-                className="object-contain 2xl:ml-[893px] 2xl:mt-[60px] xl:mt-[86px] xl:ml-[631px]"
+                className="object-contain 2xl:ml-[893px] 2xl:mt-[60px] xl:mt-[86px] xl:ml-[95px]"
               />
             </div>
 
           </section>
-          <h1 className="text-[18px] w-[832px] h-[51px] ml-[369px] mt-[100px] text-[#737373] 2xl:ml-[197px] xl:ml-[135px]">Install software and drivers on each computer or mobile device you want to print from.</h1>
+          <h1 className="text-[18px] w-[832px] h-[51px] ml-[369px] mt-[267px] text-[#737373] 2xl:ml-[197px] xl:ml-[135px]">Install software and drivers on each computer or mobile device you want to print from.</h1>
           <div className='2xl:ml-[189px] xl:ml-[130px]' style={{ display: 'flex', alignItems: 'center' }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path fillRule="evenodd" clipRule="evenodd" d="M8.00034 9C8.00034 6.79086 9.7912 5 12.0003 5C14.2095 5 16.0003 6.79086 16.0003 9C16.0003 9.6395 15.8506 10.2426 15.5848 10.7775C15.4619 11.0248 15.5628 11.3249 15.8101 11.4478C16.0574 11.5707 16.3574 11.4698 16.4803 11.2225C16.8133 10.5524 17.0003 9.79734 17.0003 9C17.0003 6.23858 14.7618 4 12.0003 4C9.23892 4 7.00034 6.23858 7.00034 9C7.00034 11.3802 8.66297 13.3708 10.8897 13.8761C11.159 13.9372 11.4268 13.7684 11.4879 13.4991C11.5491 13.2298 11.3803 12.962 11.111 12.9009C9.32974 12.4967 8.00034 10.903 8.00034 9ZM5.1405 21.5995C5.78903 18.4045 8.6145 16 12.0005 16C15.3864 16 18.2119 18.4045 18.8604 21.5995C18.9154 21.8701 19.1793 22.0449 19.4499 21.99C19.7205 21.9351 19.8954 21.6712 19.8404 21.4005C19.0992 17.7487 15.8714 15 12.0005 15C8.12955 15 4.90176 17.7487 4.16048 21.4005C4.10555 21.6712 4.2804 21.9351 4.55102 21.99C4.82165 22.0449 5.08556 21.8701 5.1405 21.5995Z" fill="#212121" />

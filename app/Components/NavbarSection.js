@@ -139,7 +139,7 @@ const NavbarSection = () => {
         {/* HP Logo */}
         <div className="flex items-center mr-4 xl:ml-[-60px] 2xl:ml-[2px]">
           <Image
-            src="/printer.webp" // Replace with the correct path to your logo
+            src="/hplogo.jpeg" // Replace with the correct path to your logo
             alt="HP Logo"
             width={53}
             height={53}

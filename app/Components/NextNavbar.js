@@ -14,7 +14,7 @@ const Chatlink = () => {
     >
       <div className="relative flex items-center">
   {/* Call Icon Image */}
-  <img src="/call.png" alt="Call Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
+  {/* <img src="/call.png" alt="Call Icon" className="w-6 h-6 sm:w-8 sm:h-8" /> */}
 
   {/* Text */}
   <span className="text-[20px] sm:text-[24px] text-[#1c85c1]">
