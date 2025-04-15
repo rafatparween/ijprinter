@@ -26,7 +26,7 @@ import Image from "next/image";
 function ErrorPageHndle(){
     return(
         <>
-            <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen">
+            <div className="flex flex-col items-center justify-center bg-[#8EC1D6] min-h-screen">
 <div className="mb-6 flex justify-center">
   <Image
     src="/error.png"  // Make sure error.png exists in your public folder
