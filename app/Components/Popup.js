@@ -37,7 +37,7 @@ const Popup = () => {
       {/* Trigger link */}
       <button
         onClick={togglePopup}
-        className="underline 2xl:ml-[-426px] 2xl:mt-[25px] xl:ml-[-230px] xl:mt-[25px]"
+        className="underline 2xl:ml-[-426px] 2xl:mt-[25px] xl:ml-[-420px] xl:mt-[25px]"
       >
         Where's the printer name?
       </button>
