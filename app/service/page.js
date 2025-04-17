@@ -18,27 +18,13 @@ import PrinterSetup from "./content/PrinterSetup";
 function Home() {
   return (
     <>
-      {/* <Navbar/>
-      <Header/>
-      <PrinterSetup/>
     
-      <Digonode/>
-      <SupportPage/>
-     
-      <Avoid/>
-      <Wrapper/>
-      <FooterSection/>
-      <JivoChat/> */}
       <NextNavbar/>
       <NextHeader/>
       <PrinterSetup/>
       <Digonode/>
       <SupportPage/>
-      {/* <Avoid/> */}
-      
-      {/* <Wrapper/> */}
-      
-      {/* <FooterSection/> */}
+     
       <Footer/>
       <JivoChat/>
 

@@ -14,7 +14,7 @@ export default function NextHeader() {
       {/* Navigation Bar */}
       <nav className="bg-[#1C8DCEED] text-white w-full">
         <div className="max-w-[90.33%] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-[1280px] mx-auto flex justify-between items-center h-16">
+          <div className="max-w-[1180px] mx-auto flex justify-between items-center h-16">
             {/* Mobile Menu Button */}
             <button
               className="md:hidden text-white text-3xl"

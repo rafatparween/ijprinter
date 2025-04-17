@@ -93,4 +93,4 @@ export default function About() {
       </section>
     </div>
   );
-}
+};// this is the comment
