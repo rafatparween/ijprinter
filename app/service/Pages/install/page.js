@@ -62,7 +62,7 @@ function Printersearch() {
 
   return (
     <>
-      <div className="px-6 xl:px-[130px] 2xl:px-[197px]">
+      <div className="ml-[-1.5rem] px-6 xl:px-[130px] 2xl:px-[197px]">
         <NavbarSection />
       </div>
 
@@ -142,9 +142,11 @@ function Printersearch() {
       )}
 
       {/* Bottom Section */}
-      <div className="px-6 xl:px-[130px] 2xl:px-[14px]">
-        <Storepage />
-      </div>
+    
+      <div className="-ml-8 px-6 xl:px-[130px] 2xl:px-[14px]">
+  <Storepage />
+</div>
+
 
 
       <Footer />

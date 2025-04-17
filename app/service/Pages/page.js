@@ -59,109 +59,106 @@ function Home() {
     }
   };
 
-  return (
-    <>
-      {/* Consistent layout wrapper for header */}
-      <div className="px-6 xl:px-[130px] 2xl:px-[194px]">
-        <NavbarSection />
-      </div>
+return (
+  <>
+    {/* Top Navigation */}
+    <div className="px-6 xl:px-[130px] 2xl:px-[187px]">
+      <NavbarSection />
+    </div>
 
-      <div className="h-[390px]">
-        <section
-          className="relative flex flex-col justify-center text-left py-12 h-[400px] bg-cover bg-center px-6 xl:px-[130px] 2xl:px-[197px]"
-          style={{
-            backgroundImage: "url('/topback.png')"
-          }}
-        >
-          {/* Background Overlay */}
-          <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
+    {/* Header Section */}
+    <div className="h-[390px]">
+      <section
+        className="relative flex flex-col justify-center text-left py-12 h-[400px] bg-cover bg-center px-6 xl:px-[130px] 2xl:px-[197px]"
+        style={{
+          backgroundImage: "url('/topback.png')"
+        }}
+      >
+        <div className="absolute inset-0 z-0"></div>
 
-          {/* Content */}
-          <div className="relative z-10 text-white max-w-[832px] mt-[35px]">
-            <h1 className="text-[44px] font-hp-simplified">
-              Get started with your HP printer
-            </h1>
-            <p className="mt-[35px] text-[24px]">
-              Enter your printer name and model number to get the right HP software and drivers.
-            </p>
+        <div className="relative z-10 text-white max-w-[832px] mt-[35px]">
+          <h1 className="text-[44px] font-hp-simplified font-light">
+          Get started with your HP printer
 
-            {/* Input Section */}
-            <div className="mt-8 flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full max-w-lg">
-              <input
-                type="text"
-                value={searchTerm}
-                onChange={handleSearchChange}
-                placeholder="Enter your product name here. For example: 'OfficeJet 9010'"
-                className="px-4 py-2 w-full rounded-md text-gray-700"
-              />
-              <button
-                onClick={handleSearchClick}
-                className="mt-4 sm:mt-0 bg-gray-300 text-gray-900 rounded-md w-[100px] h-[48px]"
-              >
-                Next
-              </button>
-            </div>
-
-            {/* Filtered Dropdown */}
-            {filteredModels.length > 0 && (
-              <ul className="mt-1 w-full max-w-lg bg-white border border-gray-300 rounded-lg shadow-lg z-10 text-black">
-                {filteredModels.map((model) => (
-                  <li
-                    key={model}
-                    onClick={() => handleModelClick(model)}
-                    className="cursor-pointer p-2 hover:bg-[#007DBA] hover:text-white"
-                  >
-                    <span className="font-bold text-black">HP</span>
-                    {model.substring(2)}
-                  </li>
-                ))}
-              </ul>
-            )}
-
-            {/* Links */}
-            <div className="mt-6 flex flex-col space-y-5">
-              <a href="#" className="underline">Where's the printer name?</a>
-              <a href="#" className="underline">My device is not listed</a>
-              <Popup />
-            </div>
-
-          </div>
-        </section>
-
-        {/* Bottom Text */}
-        <h1 className="text-[18px] w-[832px] h-[51px] text-[#737373] mt-[100px] px-6 xl:px-[130px] 2xl:px-[197px]">
-          Install software and drivers on each computer or mobile device you want to print from.
-        </h1>
-
-        {/* Support Row */}
-        <div className="mt-4 flex items-center px-6 xl:px-[130px] 2xl:px-[197px] max-w-[832px]">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-            {/* SVG content */}
-          </svg>
-          <h1 className='text-[#737373] ml-[10px]'>
-            Need additional help with setup? Visit <span className='underline' style={{ color: '#007DBA' }}>HP Support</span>
           </h1>
-        </div>
+          <p className="mt-[20px] text-[20px] w-full font-light whitespace-nowrap">
+  Enter your HP product name and model number to get the right HP Smart software and drivers for you
+</p>
 
-        {/* Country */}
-        <div className="flex items-center mt-8 px-6 xl:px-[130px] 2xl:px-[197px] max-w-[832px]">
-          <Image
-            src="/unitedlogo.png"
-            alt="United States"
-            height={50}
-            width={50}
-            className="w-6 h-6 mr-2"
-          />
-          <h1 className="text-lg text-[#007DBA] underline">United States</h1>
+
+          <div className="mt-8 flex flex-col sm:flex-row sm:items-center sm:space-x-2 w-full max-w-xl">
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={handleSearchChange}
+              placeholder='Enter your product name here. Example: “OfficeJet 9010”'
+              className="px-4 py-3 w-full rounded-md text-gray-700"
+            />
+            <button
+              onClick={handleSearchClick}
+              className="mt-4 sm:mt-0 bg-[#0D274D] hover:bg-[#004080] text-white rounded-md w-[100px] h-[48px]"
+            >
+              Next
+            </button>
+          </div>
+
+          {filteredModels.length > 0 && (
+            <ul className="mt-1 w-full max-w-xl bg-white border border-gray-300 rounded-lg shadow-lg z-10 text-black">
+              {filteredModels.map((model) => (
+                <li
+                  key={model}
+                  onClick={() => handleModelClick(model)}
+                  className="cursor-pointer p-2 hover:bg-[#007DBA] hover:text-white"
+                >
+                  <span className="font-bold text-black">HP</span>
+                  {model.substring(2)}
+                </li>
+              ))}
+            </ul>
+          )}
+
+          <div className="mt-6 flex flex-col space-y-4">
+            <a href="#" className="underline text-white text-[16px]">Where’s the product name?</a>
+            <a href="#" className="underline text-white text-[16px]">My device is not listed</a>
+            <Popup />
+          </div>
         </div>
+      </section>
+
+      {/* Info Text */}
+      <h1 className="text-[18px] w-full text-[#737373] mt-[60px] px-6 xl:px-[130px] 2xl:px-[197px] font-light">
+        Install HP Smart software and drivers on each mobile device or computer you want to print from. Add the printer on the new device.
+      </h1>
+
+      {/* Help Section */}
+      {/* <div className="mt-6 flex items-center px-6 xl:px-[130px] 2xl:px-[197px] max-w-[832px]"> */}
+        
+        <h1 className="text-[18px] w-full text-[#737373] mt-[50px] px-6 xl:px-[130px] 2xl:px-[197px] font-light">
+        Need additional help with setup? Visit <span className='underline' style={{ color: '#007DBA' }}>HP Support</span>
+        </h1>
+      
+      {/* </div> */}
+
+      {/* Country Footer */}
+      <div className="flex items-center mt-8 px-6 xl:px-[130px] 2xl:px-[197px] max-w-[832px]">
+        <Image
+          src="/unitedlogo.png"
+          alt="United States"
+          height={50}
+          width={50}
+          className="w-6 h-6 mr-2"
+        />
+        <h1 className="text-[16px] text-[#007DBA] underline font-light">United States</h1>
       </div>
+    </div>
 
-      <div className="mt-[350px]"></div>
+    <div className="mt-[350px]"></div>
 
-      <FooterSection />
-      <JivoChat />
-    </>
-  );
+    <FooterSection />
+    <JivoChat />
+  </>
+);
+
 }
 
 export default Home;
