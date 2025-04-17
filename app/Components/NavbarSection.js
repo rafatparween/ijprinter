@@ -177,9 +177,9 @@ const NavbarSection = () => {
           <Image
             src="/hplogo.jpeg" // Replace with the correct path to your logo
             alt="HP Logo"
-            width={52}
-            height={52}
-            className="w-[52px] h-[52px]"
+            width={48}
+            height={48}
+            className="w-[48px] h-[48px] -ml-6 inline-block"
           />
 
           {/* Product Links */}

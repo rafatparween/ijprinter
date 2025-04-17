@@ -62,9 +62,9 @@ function Home() {
 return (
   <>
     {/* Top Navigation */}
-    <div className="px-6 xl:px-[130px] 2xl:px-[187px]">
-      <NavbarSection />
-    </div>
+    <div className="sticky top-0 bg-white z-50 px-6 xl:px-[130px] 2xl:px-[187px]">
+  <NavbarSection />
+</div>
 
     {/* Header Section */}
     <div className="h-[390px]">

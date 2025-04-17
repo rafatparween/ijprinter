@@ -62,9 +62,11 @@ function Printersearch() {
 
   return (
     <>
-      <div className="ml-[-1.5rem] px-6 xl:px-[130px] 2xl:px-[197px]">
+      <div className=" px-6 xl:px-[130px] 2xl:px-[200px]">
         <NavbarSection />
       </div>
+
+
 
       <div className={`h-[530px] mt-[70px] ${isPopupVisible ? "blur-sm" : ""}`}>
         <section
@@ -142,10 +144,10 @@ function Printersearch() {
       )}
 
       {/* Bottom Section */}
-    
+
       <div className="-ml-8 px-6 xl:px-[130px] 2xl:px-[14px]">
-  <Storepage />
-</div>
+        <Storepage />
+      </div>
 
 
 
