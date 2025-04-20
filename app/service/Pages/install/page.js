@@ -92,7 +92,7 @@ function Printersearch() {
                 <div className="flex items-center space-x-3">
                   <span className="text-[34px] w-[50px] h-[40px] mt-[-26px]">2.</span>
                   <p className="text-[34px] whitespace-nowrap mt-[9px] mb-[20px]">
-                    Click Start Printer Installation to complete your Setup
+                    Click Install HP Smart & Drivers to complete your Setup
                   </p>
                 </div>
                 <Link href="./install/process">

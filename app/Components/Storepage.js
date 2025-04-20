@@ -34,7 +34,7 @@ export default function Storepage() {
     
 
     return (
-        <div className="max-w-4xl mx-auto p-6 2xl:ml-[187px] xl:ml-[109px] mt-[-148px]">
+        <div className="max-w-4xl mx-auto p-6 2xl:ml-[187px] xl:ml-[13px] mt-[-148px]">
             {/* Store icons aligned to the right */}
             <div className="flex justify-end space-x-2 mb-6">
                 {/* <img src="https://w7.pngwing.com/pngs/867/239/png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo.png" alt="Google Play" className="h-[40px] w-[129px] object-contain" /> */}

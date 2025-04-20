@@ -106,7 +106,7 @@ const FooterSection = () => {
             <div className="container mx-auto px-20 lg:px-20 py-20 flex flex-col gap-10 md:flex-row justify-between border-t border-slate-800">
                 <div className="flex">
                     <div className="font-bold text-center">
-                        <h1 className="text-[32px] mt-[89px]">Micro-Sonic</h1>
+                        <h1 className="text-[32px] mt-[89px]">Ez tech Printer Solutions</h1>
                     </div>
                 </div>
 
@@ -173,7 +173,7 @@ const FooterSection = () => {
             </div>
 
             <div className="flex items-center justify-center py-10 mt-[-103px]">
-                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by micro-sonic </span>
+                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by Ez tech Printer Solutions </span>
             </div>
         </footer>
     );
